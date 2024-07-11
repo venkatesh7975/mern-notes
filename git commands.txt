@@ -1,4 +1,10 @@
+ 
+
 install git
+
+git config --global user.email "your.email@example.com"
+git config --global user.name "Your Name"
+
 open project terminal	
 git -v
 git init
@@ -9,6 +15,12 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/venkatesh7975/react-routes.git
 git push -u origin main
+
+
+
+
+
+
 
 netstat -ano | findstr :4000 
 
