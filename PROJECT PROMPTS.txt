@@ -1,0 +1,49 @@
+Prompts::
+
+1)ecommerce prompt:https://fakestoreapi.com/products/
+
+using this link make a fetch request and render the elements and style them using strap and  some responsive design
+add functionality searching ,add to cart ,sorting
+give detailed folder structure
+
+
+2)tiktaktoe prompt:
+	create tic tac toe project fullstack app with the technologies MySQL and reactjs and expressjs and style it with bootstrap,make it responsiveness,give detailed folder structure.
+
+	give detailed guide to setup and starting the project
+
+3)blogging prompt:
+https://jsonplaceholder.typicode.com/posts
+create a blogging website using reactjs,
+make fetch request and render response
+add search funcitonality ,style it with bootstrap,
+give the detailed folder strucures.
+make sure the website working perfectly.
+
+4)portfolio prompt:
+
+create a port folio project using reactjs and add styles using bootstrap and explain detailed project structure.
+add components like header,home,about,contact us,and other components as needed,and make it responsive all kind of devices,
+make it full stack like send the contact form to backend and give
+the backend express code with MySQL to store the contact us details;
+
+
+
+5)product landing  prompt:
+
+	create product landing page project using readctjs and style it with bootstrap and add responsive ness,add some necessary components.
+make the styling great.
+
+add sign in and register option also ,
+give the detailed project structure.
+
+
+6)weather forecasting prompt:
+
+ const apiKey = "b03a640e5ef6980o4da35b006t5f2942";
+
+const url = `https://api.shecodes.io/weather/v1/current?query=${query}&key=${apiKey}`;
+
+
+use this details to make a request to api and render the response and 
+add great stylings and responsiveness using bootstrap and give  detailed structure.
