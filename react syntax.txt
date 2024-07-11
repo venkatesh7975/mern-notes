@@ -1,0 +1,96 @@
+
+node -v
+npm -v
+
+npm install -g create-react-app
+
+npx create-react-app foldername
+
+C:\Users\VIJAYA\Desktop\react_project>cd foldername
+C:\Users\VIJAYA\Desktop\react_project/foldername>npm start
+
+
+
+
+
+
+
+
+
+import Componentname from "./Component";
+import './Componentname.css"
+
+//functional component syntax
+
+export default function componentName(){
+			return(
+						<div>
+								<h1>content</h1>
+								<h1>content</h1>
+						</div>		
+);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let arr=[1,2,3,4]
+let doubleArray=arr.map((n)=>{
+return n*2
+});
+
+let evenNumbers=arr.filter((n)=>{
+return n%2===0;
+}
+
+//[2,4]
+
+
+
+
+
+
+
+
+
+
+function add(a,b){
+return a+b;
+}
+
+const add=(a,b)=>{
+return a+b;
+}
+
+input field data--setUsername-->variables---->onlocalstorage
+
+use try and catch block to handle errors
+try{
+  console.log(g)
+}
+  
+catch(error){
+    console.log("error");
+}
+
+
+
+
+
+
+

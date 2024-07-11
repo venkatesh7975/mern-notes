@@ -1,0 +1,55 @@
+
+1)open command promt,
+	node -v
+2)if not showing node version ,install node with system compatibility;
+
+
+3)create a folder on desktop and open it with vs code 
+4)then open terminal(ctrl+shift+`)
+5)React setup commands:
+	1)npm install -g create-react-app 
+  2)npx create-react-app frontend
+	
+6)cd react_project
+7)npm start
+8)yes/no   -> y
+9)ctrl+mouseclick   -to open localhost link
+10)go to extensions and install es7 if you are not installed
+
+
+
+jsx functional syntax:
+
+
+function App(){
+		return(
+		<div>
+			<h1>hello</h1>
+		</div>)
+}
+
+
+10)use rfc to create react functional component;
+11)inline styling :  style={{color:"red"}}
+
+
+
+
+
+arry.map syntax:
+
+let arr=[1,2,3]
+arr.map(function (v){
+return (
+			<div>
+				<h1>{v}</h1>
+				<h1>{v}</h1>
+			</div>
+)
+});
+
+//arr.filter
+let nameArray=[1,2,3,4,5,6,7]
+let evenNumbers = nameArray.filter(function (num) {
+    return num % 2 === 0;
+  });

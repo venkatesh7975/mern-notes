@@ -1,0 +1,35 @@
+1)create a new folder on desktop(give it a name)
+2)open that folder with vscode
+check the extensions:
+		es7
+		auto rename tag
+		prettier
+3)open two terminals in vscode 
+4)use one for creating backend another for frontend
+5)enter the command in first terminal:
+
+   npx create-react-app frontend
+   cd frontend
+   npm install bootstrap react-router-dom
+   npm start
+  import "bootstrap/dist/css/bootstrap.min.css";
+
+6)in second terminal enter the following commands one by one:
+	mkdir backend
+	cd backend
+	npm init -y
+	npm install -g nodemon 
+	npm install express cors mysql2 bcrypt
+7)create a file server.js in backend folder ,write your backend code
+	import the packages 
+	connect the MySQL database(create your 	database and tables in MySQL commandline 	according to your project needs)
+	write the api's(get / post/ put/delete)
+	listen the server at some port
+8)to run your backend code ,use the command
+		nodemon server.js
+	if it won't work then :node server.js
+to see the output:open the browser localhost:${port}
+
+
+10)if you have nodemon error:open powershell run as adminstrator
+Set-ExecutionPolicy RemoteSigned -scope Process

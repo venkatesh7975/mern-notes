@@ -1,0 +1,33 @@
+1)npm install react-router-dom
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+  <BrowserRouter>
+      <Header />
+
+      <Routes>
+        <Route path="/cards" element={<Cards />} />
+        <Route path="/even" element={<Even />} />
+        <Route path="/game" element={<NumberGame />} />
+        <Route path="/counter" element={<Counter />} />
+      </Routes>
+    </BrowserRouter>
+
+
+
+import { Link } from "react-router-dom";
+ <Link  to="/even">
+        Even
+ </Link>
+
+
+use state syntax
+ const [count, setCount] = useState(0);
+ setCount((prev) => prev + 1);
+	setCounte(value);
+
+1)install prettier extension
+2)if autoformatting is not working ,
+3)open settings in vs code(ctrl+,)
+4)search with the text "format"
+5)select the default formatter -prettier
+6)check the format on save checkbox.

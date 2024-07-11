@@ -1,0 +1,33 @@
+handling requests in the backend:
+
+app.get("/", (req, res) => {
+  const getQuery="SELECT * FROM users"
+  connection.query(getQuery, (err, rows) => {
+    if (err) {
+      console.error("Error executing query:", err);
+      return res.status(500).json({ error: "Error fetching users" });
+    }
+    res.json(rows); // Send JSON response with users data
+  });
+});
+
+
+app.post("/", (req, res) => {
+  const { username, password } = req.body;
+
+  if (!username || !password) {
+    return res
+      .status(400)
+      .json({ error: "Username and password are required" });
+  }
+
+  const sql = "INSERT INTO user_details (username, password) VALUES (?, ?)";
+  connection.query(sql, [username, password], (err, result) => {
+    if (err) {
+      console.error("Error inserting user:", err);
+      return res.status(500).json({ error: "Error registering user" });
+    }
+    console.log("User registered successfully");
+    res.status(200).json({ message: "User registered successfully" });
+  });
+});

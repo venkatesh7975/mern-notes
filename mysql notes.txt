@@ -1,0 +1,70 @@
+using existing databases;
+
+1)Show databases;
+2)USE users_db;
+3)SHOW TABLES;
+4)DESCRIBE table_name;
+5)SELECT * FROM table_name;
+ select name from city where id<10;
+	(we can select the column with condition)
+
+
+creating new database;
+1)CREATE DATABASE users_db;
+2)show databases;(it doesn't show your databasename since it doesn't have data);
+3)use databasename;
+
+CREATE TABLE table_name (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+  
+);
+
+
+INSERT INTO users (username, email, password)
+VALUES ('john_doe', 'john.doe@example.com', 'hashed_password');
+
+SELECT * FROM users;
+
+SELECT * FROM users
+WHERE id = 1;
+ select name from city where name like "po%";
+ select name from city where name like "%po%";
+ select name from city where name like "%po";
+
+UPDATE users
+SET username = 'new_username'
+WHERE id = 1;
+
+ALTER TABLE tablename ADD COLUMN new_column datatype;
+
+
+
+DROP TABLE table_name;
+(deletes the table completely)
+
+DROP DATABASE DATABASE_NAME;
+
+SELECT columns
+FROM table1
+INNER JOIN table2
+ON table1.column = table2.column;
+
+
+
+const connection = mysql.createConnection({
+  host: 'localhost', // Replace with your MySQL host
+  user: 'username', // Replace with your MySQL username
+  password: 'password', // Replace with your MySQL password
+  database: 'database_name' // Replace with your MySQL database name
+});
+
+// Connect to MySQL
+connection.connect((err) => {
+  if (err) {
+    console.error('Error connecting to MySQL:');
+    return;
+  }
+  console.log('Connected to MySQL');
+});

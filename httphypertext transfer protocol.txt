@@ -1,0 +1,17 @@
+http:hypertext transfer protocol
+
+http methods:
+get,
+post 
+put
+delete
+
+
+app.get(path,function handler);
+
+
+
+
+
+     git config --global user.name "Your Name"
+     git config --global user.email "your.email@example.com"

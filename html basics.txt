@@ -1,0 +1,5 @@
+mern-mysql,expressjs,reactjs,nodejs
+
+html element- content with start tag and end tag
+header tage-h1 to h6
+types of websites-static,responsive,dynamic

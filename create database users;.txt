@@ -1,0 +1,7 @@
+create database users;
+
+use users;
+
+create table user_details(id int auto_increment primary key,
+username varchar(200) not null,password varchar(200) not null);
+

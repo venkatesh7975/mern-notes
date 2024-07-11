@@ -1,0 +1,29 @@
+
+Device					Device Size (Width)	Class Name Prefix
+Extra small devices			<576px				col-
+Small devices					>=576px			col-sm-
+Medium devices				>=768px				col-md-
+Large devices					>=992px			col-lg-
+Extra large devices			>=1200px			col-xl-
+
+
+
+bg-colors:bg-primary, bg-secondary, bg-success, bg-danger, bg-warning,
+ bg-info, bg-light, bg-dark, bg-white, bg-transparent
+
+colors:text-primary, text-secondary, text-success, text-danger,
+ text-warning, text-info, text-light, text-dark, 
+
+display:d-flex d-none d-block
+ 
+display with screen sizes: d-none d-sm-none d-md-none d-lg-none d-xl-none
+
+margin:m-1,mb-2,mt-3,mr-4,ml-5
+
+padding:p-1,pb-2,pt-3,pr-4,pl-5
+
+
+
+bootstrap commands:
+npm install bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
