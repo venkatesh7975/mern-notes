@@ -1,0 +1,43 @@
+MERN setup and deployment erros:
+
+git hub:
+git is not recognized
+
+-->install git then authenticate then you can
+use commands
+git config --global user.email "your.email@example.com"
+git config --global user.name "Your Name"
+
+remote repository already existed:
+-->git remote remove origin
+
+
+fronteend:
+template literal errors;
+keep the url in back ticks(`${url}`)
+
+backend:
+nodemon related 
+port already existed
+netstat -ano | findstr :4000 
+
+taskkill /PID 592 /F 
+
+
+
+database:
+network access error(0.0.0.0/0)
+
+
+deployment:
+1)push backend into git
+2)import backend repo in render
+3)in render, add environment variables
+	build command: npm install
+	start command: node server.js
+4)copy the url from the render ,use it in the frontend in .env file
+5)push the frontend into GitHub
+6)import the frontend into vercel and add environment variable and deploy.
+
+
+
